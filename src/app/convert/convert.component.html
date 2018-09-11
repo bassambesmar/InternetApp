@@ -1,0 +1,20 @@
+
+
+<div class="container">
+    <br/><br/>
+    
+    <h1>Example 2 : Temperature Convertor</h1>
+    <div class="form-group">
+        <label for="degree">Degree</label>
+        <input type="number" class="form-control" id="degree" name="degree" [(ngModel)]="degree">
+    </div>
+
+
+    <div class="form-group">
+        <label id="result">{{result}}</label>
+    </div>
+    <button type="button" class="btn btn-default" (click)="toCel()">To Celsius</button>
+    <button type="button" class="btn btn-default" (click)="toFeh()">To Fahrenheit</button>
+    
+    <h3>Thanks</h3>
+</div>
